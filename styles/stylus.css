@@ -636,14 +636,18 @@ hr{
 }
 
 @media (min-width: 900px){
-
     .contacto-formulario p{
         padding: 1em;
         text-align:left;
     }
 }
 
+@media (max-width: 609px){
+    .contacto-formulario form p{
+        grid-column: 1/3;
+    }
 
+}
 /* ----------------- */
 /* CONTACTO V2*/
 /* ----------------- */
@@ -820,6 +824,12 @@ hr{
         text-align:left;
     }
 
+}
+
+@media (max-width: 550px){
+    .contact-form form p{
+        grid-column: 1/3;
+    }
 }
 
 /* ----------------- */
